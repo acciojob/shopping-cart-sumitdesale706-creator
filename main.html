@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form>
+		<label for="item-name-input">Name</label>
+        <input id="item-name-input" type="text" required>
 
+	    <br>
+	    <br>
+	    <label for="item-price-input">Price</label>
+        <input id="item-price-input" type="number" required>
+
+	    <br>
+	    <br>
+	    <button id="add" type="submit">Add</button>
+	</form>
+
+	<br>
+	<br>
+	
+	<table border id="t">
+			<tr>
+				<td id="item">Name</td>
+				<td id="price">Price</td>
+			</tr>
+	</table>
+	<h3 id="total">GrandTotal=0</h3>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>

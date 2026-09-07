@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+table {
+	 border : 2px solid black;
+}
+
+button {
+	 width : 60px;
+	 padding : 6px;
+	 margin : 5px;
+	 background-color : orange;
+}
+
+button:active {
+	transform: scale(0.9);
+}
