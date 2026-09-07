@@ -33,7 +33,7 @@ function emptyAll(){
 }
 
 button.addEventListener("click", () => {
-	   if(name.value === "" && price.value === ""){
+	   if(name.value === "" || price.value === ""){
 		   return;
 	   }
 	   addRow();
